@@ -1,11 +1,11 @@
 import React from 'react';
 import LoginSignUpPage from './components/LoginSignUp/LoginSignUpPage';
-import Footer from './components/Home/Footer';
+import Home from './components/Home/Home';
 
 const LoginPage = () => {
   return (
     // <LoginSignUpPage></LoginSignUpPage>
-    <Footer></Footer>
+    <Home></Home>
   );
 };
 

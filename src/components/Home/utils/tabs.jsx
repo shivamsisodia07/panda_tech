@@ -7,7 +7,7 @@ import {
   TabPanel,
 } from "@material-tailwind/react";
  
-export function UnderlineTabs() {
+const UnderlineTabs=()=> {
   const [activeTab, setActiveTab] = React.useState("html");
   const data = [
     {
@@ -74,3 +74,4 @@ export function UnderlineTabs() {
     </Tabs>
   );
 }
+export default UnderlineTabs;

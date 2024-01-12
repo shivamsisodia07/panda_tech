@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Login = ({onForgetPassClick}) => {
   const [showPassword, setShowPassword] = useState(false);
@@ -94,9 +95,9 @@ const Login = ({onForgetPassClick}) => {
         </div>
       </div>
       <div className="flex justify-center mb-2 ">
-        <button className="py-2 px-4 border border-black rounded-3xl">
+        <NavLink to="main" className="py-2 px-4 border border-black rounded-3xl">
           Join Panda
-        </button>
+        </NavLink>
       </div>
       <div className="text-center ">
         <span className="text-gray-400 text-sm font-normal font-['Roboto'] leading-normal">

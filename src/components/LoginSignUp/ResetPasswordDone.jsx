@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const ResetPasswordDone = () => {
   return (
@@ -45,9 +46,9 @@ const ResetPasswordDone = () => {
 
    
     <div className="flex justify-center mb-4 ">
-      <button className="py-2 px-4 border border-black rounded-3xl">
+      <NavLink to="main" className="py-2 px-4 border border-black rounded-3xl">
         Sign in
-      </button>
+      </NavLink>
     </div>
    
   </>

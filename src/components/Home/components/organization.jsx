@@ -5,50 +5,45 @@ import developer3 from "../../../../public/assets/img7.png";
 
 const Organization = () => {
   return (
-    <div className="h-screen mb-4 mt-32 px-4">
-      <div className="flex flex-row h-fit">
-        <div className="w-2/3">
-          <div className="font-bold text-3xl text-start">
-            “ Mon rêve était d’aller vivre en Afrique. j'ai postulé à une offre
-            d'emploi pour le poste de web developer publiée sur PANDA et le mois
-            suivant je commençais à travailler à Dakar! ”
+    <div className="mb-[5rem] p-4">
+      <div className="flex flex-col-reverse md:flex-row">
+        <div className="md:w-2/3 p-4">
+          <div className="font-bold text-xl md:text-3xl text-start">
+            “PANDA nous donne accès aux meilleurs talents dans leur domaine
+            d'activité et à de réelles perspectives de collaboration! ”
           </div>
-          <div className="text-muted text-end text-red-500">Omar Ndiaye</div>
+          <div className=" mb-4 text-muted text-end text-red-500">
+            Omar Ndiaye
+          </div>
 
           <div className="flex flex-row gap-2">
-            <div className=" w-4/8 h-40 border-red-900">
-              <img
-                src={developer}
-                className="border rounded-t-full overflow-hidden mb-auto"
-              />
-            </div>
-            <div className="w-3/8 h-40">
-              <img
-                src={developer2}
-                className="border rounded-t-full overflow-hidden mb-auto"
-              />
-            </div>
-            <div className="w-2/8 h-40">
-              <img
-                src={developer3}
-                className="border rounded-t-full overflow-hidden mb-auto"
-              />
-            </div>
+            <img
+              src={developer}
+              className="w-60 h-[20vh] md:h-[50vh] border rounded-t-full overflow-hidden mb-auto"
+            />
+
+            <img
+              src={developer2}
+              className="w-60 h-[25vh] md:h-[60vh] border rounded-t-full overflow-hidden mb-auto"
+            />
+
+            <img
+              src={developer3}
+              className="w-60 h-[30vh] md:h-[70vh] border rounded-t-full overflow-hidden mb-auto"
+            />
           </div>
         </div>
-        <div className="w-1/3 p-4">
-         
-            {" "}
-            <div className="font-bold text-start text-3xl mb-4">
-              Découvrez les experts
-            </div>
-            <div className="flex flex-col  items-end ">
+        <div className="md:w-1/3 p-4">
+          {" "}
+          <div className="font-bold text-start text-2xl md:text-3xl mb-4">
+            Découvrez les organisations en Afrique
+          </div>
+          <div className="flex flex-col  items-end ">
             <div className=" flex flex-col justify-end h-full">
               {" "}
               <p className="mb-4">
-                Connectez-vous avec des organisations africaines, postulez au
-                job de vos rêves en Afrique ou partagez votre expertise même à
-                distance!{" "}
+                Trouvez les experts que vous recherchez, publiez vos offres
+                d'emploi et d'autres contenus exclusifs sur votre organisation!
               </p>
               <div className="flex justify-center mb-4 ">
                 <button className="py-2 px-4 border border-black rounded-3xl">

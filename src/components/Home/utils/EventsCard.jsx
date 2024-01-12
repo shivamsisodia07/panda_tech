@@ -1,14 +1,14 @@
 import React from "react";
 
-const EventsCard = () => {
+const EventsCard = ({event_name,date,lieu,img_link,person_name,person_img}) => {
   return (
-    <div>
-      <div className="flex flex-row justify-center items-center gap-2">
-        <div className="w-1/3">
-          <div className="font-bold text-3xl "> enveak</div>
-          <div className="text-start text-sm"> publadk :</div>
-          <div className="flex justify-start items-start">
-            <img src=""></img>
+    <>
+      <div className="flex flex-col md:flex-row justify-center items-center gap-2">
+        <div className="md:w-1/3 p-4">
+          <div className="mb-4 font-bold text-xl md:text-3xl text-black"> Evénements à venir</div>
+          <div className="text-start text-sm"> publadk :{person_name}</div>
+          <div className="flex justify-start items-start w-10 h-10 mb-8">
+            <img className=" rounded-full " src={`../../../../public/assets/${person_img}`}></img>
           </div>
           <p className="mb-4">
             Connectez-vous avec des organisations africaines, postulez au job de
@@ -20,25 +20,27 @@ const EventsCard = () => {
             </button>
           </div>
         </div>
-        <div className="w-1/3">
-          <img src="" className="rounded-full border"></img>
+        <div className="md:w-1/3 p-4">
+          <img src={`../../../../public/assets/${img_link}`} className="rounded-full border"></img>
         </div>
-        <div className="w-1/3 flex flex-col justify-center items-center ">
-          <div className="text-sm text-start font-bold">
+        <div className="md:w-1/3 flex flex-row justify-center items-center px-4 ">
+          <div className="flex flex-col  items-start">
+          <div className="text-sm font-bold">
             <span className="text-black">L'événement:  </span>
-            <span className="text-red-400">The Nancy party’s</span>
+            <span className="text-red-400">{event_name}</span>
           </div>{" "}
           <div className="text-sm font-bold">
             <span className="text-black">Date : </span>
-            <span className="text-red-400">10/07/22</span>
+            <span className="text-red-400">{date}</span>
           </div>{" "}
-          <div className="text-sm text-start font-bold">
+          <div className="text-sm  font-bold">
             <span className="text-black">Lieu : </span>
-            <span className="text-red-400">senegal</span>
-          </div>
+            <span className="text-red-400">{lieu}</span>
+          </div></div>
+          
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

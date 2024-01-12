@@ -2,14 +2,14 @@ import React from "react";
 import globe from "../../../../public/assets/Rectangle111.png"
 const Functionality = () => {
   return (
-    <div className=" px-8">
+    <div className=" mb-[5rem] p-8">
       <div className="font-bold text-start text-3xl mb-8">Functionality</div>
 
-      <div className="flex flex-row">
-        <div className="w-2/3">
+      <div className="flex flex-col md:flex-row">
+        <div className="md:w-2/3">
         <div className="flex flex-col gap-4">
-        <div className="flex flex-row gap-4">
-            <div className="w-1/3 border border-t-black rounded-t-[80px] p-2">
+        <div className="flex flex-col justify-center items-center md:flex-row  gap-2 md:gap-2">
+            <div className="w-[80%] md:w-1/3  md:h-[50vh] border border-black border-t-red-700 rounded-t-[80px] p-4">
               <div className="flex justify-center items-center mt-2 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -25,9 +25,9 @@ const Functionality = () => {
                 </svg>
               </div>
               <div className="font-bold text-center mb-2">Sélection de profils</div>
-              <p className="text-center">Sélectionnez les meilleurs profils d'experts ou organisations qui vous intéressent et entrez en contact avec eux! </p>
+              <p className="text-center ">Sélectionnez les meilleurs profils d'experts ou organisations qui vous intéressent et entrez en contact avec eux! </p>
             </div>
-            <div className="w-1/3 border border-t-black rounded-t-[80px] p-2">
+            <div className="w-[80%] md:w-1/3 border  md:h-[50vh] border-black border-t-red-700 rounded-t-[80px] p-4">
               <div className="flex justify-center items-center mt-2 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Functionality = () => {
               <div className="font-bold text-center mb-2">Publication</div>
               <p className="text-center">Offres d’emploi, annonces, collaborations, événements, etc. Publiez du contenu exclusif sur votre page privée !</p>
             </div>
-            <div className="w-1/3 border border-t-black rounded-t-[80px] p-2">
+            <div className="w-[80%] md:w-1/3 border   md:h-[50vh] border-black border-t-red-700 rounded-t-[80px] p-4">
               <div className="flex justify-center items-center mt-2 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,9 +64,9 @@ const Functionality = () => {
               <p className="text-center">Rencontrez-vous grâce à notre Travel Map! Cette fonctionnalité permet aux experts de notifier leurs déplacements sur le continent africain. Il ne reste plus qu'à planifier la rencontre! </p>
             </div>
           </div>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-col justify-center items-center md:flex-row gap-4 mb-4">
           
-            <div className="w-1/3 h-[40vh] border border-b-black rounded-b-[80px] p-2">
+            <div className="w-[80%] md:w-1/3 h-[40vh] border  md:h-[50vh] border-black border-b-red-700 rounded-b-[80px] p-4">
               <div className="flex justify-center items-center mt-2 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ const Functionality = () => {
               <div className="font-bold text-center mb-2">Filtres & recherche avancée</div>
               <p className="text-center">Ciblez vos recherches par secteur d'activité, pays et plus encore. </p>
             </div>
-            <div className="w-1/3 h-[40vh] border border-b-black rounded-b-[80px] p-2">
+            <div className="w-[80%] md:w-1/3 h-[40vh] border   md:h-[50vh] border-black border-b-red-700 rounded-b-[80px] p-4">
               <div className="flex justify-center items-center mt-2 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,7 @@ const Functionality = () => {
         </div>
          
         </div>
-        <div className="w-1/3 p-4">
+        <div className="md:w-1/3 p-4 mb-4">
             <img src={globe}></img>
         </div>
       </div>

@@ -47,10 +47,10 @@ const UnderlineTabs=()=> {
   return (
     <Tabs value={activeTab}>
       <TabsHeader
-        className="rounded-none border-b border-blue-gray-50 bg-transparent p-0"
+        className="w-1/3 rounded-none  bg-transparent p-0"
         indicatorProps={{
           className:
-            "bg-transparent border-b-2 border-gray-900 shadow-none rounded-none",
+            "bg-transparent border-b-0 border-black  shadow-none rounded-none",
         }}
       >
         {data.map(({ label, value }) => (
@@ -58,9 +58,9 @@ const UnderlineTabs=()=> {
             key={value}
             value={value}
             onClick={() => setActiveTab(value)}
-            className={activeTab === value ? "text-gray-900" : ""}
+            className={` mx-1 border-b-2    ${activeTab === value ? "border-black " : "border-gray-500"} `}
           >
-            {label}
+            {/* {label} */}
           </Tab>
         ))}
       </TabsHeader>

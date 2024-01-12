@@ -17,7 +17,7 @@ const testimonialCard = ({img_link,member_name,member_position ,quotes ,title,de
       </div>
 
       <div className="md:w-1/3 mb-8">
-        <img src={`../../../../public/assets/${img_link}`} className="rounded-full border"></img>
+        <img src={img_link} className="rounded-full border"></img>
       </div>
       <div className="md:w-1/3 flex flex-col  justify-center items-center px-4 ">
         <div className="text-center mb-4 font-bold">

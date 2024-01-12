@@ -13,7 +13,7 @@ const Testimonials = () => {
   const data = [
     {
       value: "1",
-      img_link: "img9.png",
+      img_link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS534xUnhwL100jZ36HLh5_qnVOBSDfQCg6W5a_zkLR4mVcxRCiUggumutIPyvdtM0vUoU&usqp=CAU",
       member_name: "Artur Luison",
       member_position: "Manager",
       quotes:
@@ -23,7 +23,7 @@ const Testimonials = () => {
     },
     {
       value: "2",
-      img_link: "img9.png",
+      img_link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS534xUnhwL100jZ36HLh5_qnVOBSDfQCg6W5a_zkLR4mVcxRCiUggumutIPyvdtM0vUoU&usqp=CAU",
       member_name: "Artur Luison",
       member_position: "Manager",
       quotes:
@@ -33,7 +33,7 @@ const Testimonials = () => {
     },
     {
       value: "3",
-      img_link: "img9.png",
+      img_link: "https://www.cloudways.com/wp-content/uploads/2020/01/testimonial-edward.png",
       member_name: "Artur Luison",
       member_position: "Manager",
       quotes:
@@ -43,7 +43,7 @@ const Testimonials = () => {
     },
     {
       value: "4",
-      img_link: "img9.png",
+      img_link: "https://www.cloudways.com/wp-content/uploads/2020/01/testimonial-edward.png",
       member_name: "Artur Luison",
       member_position: "Manager",
       quotes:

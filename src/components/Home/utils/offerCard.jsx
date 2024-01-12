@@ -14,7 +14,7 @@ const OfferCard = ({ role, company, img_link }) => {
           <div className="flex justify-center items-center flex-col gap-1">
             <img
               className=" md:w-60 border rounded-full overflow-hidden"
-              src={`../../../../public/assets/${img_link}`}
+              src={img_link}
             ></img>
 
             <p className="text-wrap font-bold text-sm text-center">{company}</p>

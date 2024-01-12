@@ -13,7 +13,7 @@ const Activity = () => {
   const data = [
     {
       value: "1",
-      img_link: "agri.png",
+      img_link: "https://gardenerspath.com/wp-content/uploads/2023/07/Seedlings-Germinating.jpg",
       activity: [
         { name: "Les énergies renouvelables" },
         { name: "L'agro-alimentaire" },
@@ -30,7 +30,7 @@ const Activity = () => {
     },
     {
       value: "2",
-      img_link: "agri.png",
+      img_link: "https://gardenerspath.com/wp-content/uploads/2023/07/Seedlings-Germinating.jpg",
       activity: [
         { name: "Les énergies renouvelables" },
         { name: "L'agro-alimentaire" },
@@ -47,7 +47,7 @@ const Activity = () => {
     },
     {
       value: "3",
-      img_link: "agri.png",
+      img_link: "https://gardenerspath.com/wp-content/uploads/2023/07/Seedlings-Germinating.jpg",
       activity: [
         { name: "Les énergies renouvelables" },
         { name: "L'agro-alimentaire" },
@@ -64,7 +64,7 @@ const Activity = () => {
     },
     {
       value: "4",
-      img_link: "agri.png",
+      img_link: "https://gardenerspath.com/wp-content/uploads/2023/07/Seedlings-Germinating.jpg",
       activity: [
         { name: "Les énergies renouvelables" },
         { name: "L'agro-alimentaire" },
@@ -81,7 +81,7 @@ const Activity = () => {
     },
     {
       value: "5",
-      img_link: "agri.png",
+      img_link: "https://gardenerspath.com/wp-content/uploads/2023/07/Seedlings-Germinating.jpg",
       activity: [
         { name: "Les énergies renouvelables" },
         { name: "L'agro-alimentaire" },
@@ -102,6 +102,7 @@ const Activity = () => {
       <div className="font-bold text-black text-2xl md:text-3xl mb-2 p-4">
         Top 5 des domaines d’activités porteurs en Afrique
       </div>
+     
       <div className="p-4 ">
         <Tabs value={activeTab}>
           <TabsHeader

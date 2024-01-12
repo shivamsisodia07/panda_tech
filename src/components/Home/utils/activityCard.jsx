@@ -6,7 +6,7 @@ const activityCard = ({ value,img_link, activity }) => {
       <div className="flex flex-col-reverse md:flex-row justify-center items-center">
         <div className="md:w-1/2 flex justify-center items-center p-4">
           <img
-            src={`../../../../public/assets/${img_link}`}
+            src={`${img_link}`}
             className=" rounded-full border"
           ></img>
         </div>

@@ -21,7 +21,7 @@ const EventsCard = ({event_name,date,lieu,img_link,person_name,person_img}) => {
           </div>
         </div>
         <div className="md:w-1/3 p-4">
-          <img src={`../../../../public/assets/${img_link}`} className="rounded-full border"></img>
+          <img src={`${img_link}`} className="rounded-full border"></img>
         </div>
         <div className="md:w-1/3 flex flex-row justify-center items-center px-4 ">
           <div className="flex flex-col  items-start">

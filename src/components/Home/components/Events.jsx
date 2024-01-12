@@ -16,7 +16,7 @@ const Events=()=> {
       event_name:"The Nancy party’s ",
       date:"10/07/2022",
       lieu:"senegal", 
-      img_link:"img10.png", 
+      img_link:"https://images.unsplash.com/photo-1655392030853-06383c26c55e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&w=1000&q=80", 
       person_name:"pablo",
       person_img:"img4.png"
     },
@@ -25,7 +25,7 @@ const Events=()=> {
       event_name:"The pablo party’s ",
       date:"10/07/2022",
       lieu:"senegal", 
-      img_link:"agri.png", 
+      img_link:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Concert_Square%2C_Liverpool%2C_21_May_2013.jpg/640px-Concert_Square%2C_Liverpool%2C_21_May_2013.jpg", 
       person_name:"pablo",
       person_img:"img4.png"
     },
@@ -34,7 +34,7 @@ const Events=()=> {
       event_name:"The Nan party’s ",
       date:"10/07/2022",
       lieu:"senegal", 
-      img_link:"img10.png", 
+      img_link:"https://images.unsplash.com/photo-1655392030853-06383c26c55e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&w=1000&q=80", 
       person_name:"pab",
       person_img:"img4.png"
     },
@@ -43,7 +43,7 @@ const Events=()=> {
       event_name:"The Nancy party’s ",
       date:"10/07/2022",
       lieu:"senegal", 
-      img_link:"img10.png", 
+      img_link:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Concert_Square%2C_Liverpool%2C_21_May_2013.jpg/640px-Concert_Square%2C_Liverpool%2C_21_May_2013.jpg", 
       person_name:"pablo",
       person_img:"img4.png"
     },

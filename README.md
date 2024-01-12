@@ -1,8 +1,25 @@
-# React + Vite
+# 🚀 Panda-tech 🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### STEPS TO SETUP LOCAL BUILD OF FRONTEND:
 
-Currently, two official plugins are available:
+ 
+1. Clone the project from github link provided and open it in your code-editor.
+2. After this step move to vite-project directory using command `cd vite-project` , Just run one command `npm install` in the terminal.This command will basically install all the dependencies on local.
+3. Create .env file for environment variables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ```sh
+VITE_API_LINK= Your Backend localhost Link with api after domain
+VITE_SOCKET_LINK =YourBackend Localhost Link
+```
+4. Run the command : `npm run dev` -> It will start react server on local.
+   
+## Author
+
+<a href="https://github.com/shivamsisodia07">
+<img src="https://github.com/shivamsisodia07.png" alt="Shivam Sisodia" width="150" height="150">
+</a>
+
+
+
+
+
